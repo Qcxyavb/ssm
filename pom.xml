@@ -91,6 +91,24 @@
       <version>2.0</version>
       <scope>provided</scope>
     </dependency>
+
+    <dependency>
+      <groupId>javax.el</groupId>
+      <artifactId>el-api</artifactId>
+      <version>2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/jstl/jstl -->
+    <dependency>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
   </dependencies>
 
   <!-- build -->
@@ -102,7 +120,7 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <configuration>
           <port>8080</port> <!-- tomcat插件的端口号 -->
-          <path>/</path> <!-- tomcat插件申明的当前项目工程的访问的url -->
+          <path>/UserSystem</path> <!-- tomcat插件申明的当前项目工程的访问的url -->
         </configuration>
       </plugin>
     </plugins>

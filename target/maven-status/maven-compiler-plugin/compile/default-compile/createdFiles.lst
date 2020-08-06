@@ -1,5 +1,14 @@
-com\qf\mybatis\mapper\EmpMapper.class
-com\qf\mybatis\controller\EmpController.class
-com\qf\mybatis\pojo\Emp.class
+com\qf\mybatis\controller\UserController.class
+com\qf\mybatis\service\UserService.class
+com\qf\mybatis\mapper\UserMapper.class
+com\qf\mybatis\mapper\GroupsMapper.class
+com\qf\mybatis\service\impl\GroupsServiceImpl.class
 com\qf\mybatis\service\EmpService.class
 com\qf\mybatis\service\impl\EmpServiceImpl.class
+com\qf\mybatis\mapper\EmpMapper.class
+com\qf\mybatis\service\impl\UserServiceImpl.class
+com\qf\mybatis\controller\EmpController.class
+com\qf\mybatis\pojo\Groups.class
+com\qf\mybatis\service\GroupsService.class
+com\qf\mybatis\pojo\Emp.class
+com\qf\mybatis\pojo\User.class

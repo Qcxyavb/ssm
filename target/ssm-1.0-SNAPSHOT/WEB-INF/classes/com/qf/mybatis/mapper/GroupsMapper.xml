@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.mybatis.mapper.GroupsMapper">
+    <!-- 查询所有用户的类型 -->
+    <select id="list" resultType="com.qf.mybatis.pojo.Groups">
+        SELECT * FROM groups
+    </select>
+
+    <select id="get" parameterType="int" resultType="com.qf.mybatis.pojo.Groups">
+    SELECT * FROM groups WHERE id = #{group_id}
+</select>
+
+    <update id="update" parameterType="com.qf.mybatis.pojo.Groups">
+    UPDATE groups SET userNum = #{userNum} WHERE id = #{id}
+</update>
+</mapper>

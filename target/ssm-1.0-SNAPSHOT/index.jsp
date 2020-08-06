@@ -1,7 +1,10 @@
-<%@ page contentType="text/html;charset=utf-8"%>
+<%@ page contentType="text/html;charset=utf-8" language="java" %>
+
 <html >
 <body>
-<h2>Hello niko!</h2>
-<h3>重温</h3>
+    <%
+        //request.getRequestDispatcher()
+        response.sendRedirect("/UserSystem/user/gotoLogin");
+    %>
 </body>
 </html>
